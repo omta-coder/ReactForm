@@ -1,0 +1,26 @@
+<%- include("header")%>
+<%- include("nav")%>
+
+<form action="/show" method="post">
+
+    <input type="number" name="id" placeholder="EmployeeId">
+    <br><br>
+    <input type="text" name="name" placeholder="Name">
+    <br><br>
+    <input type="number" name="contact" placeholder="Contact">
+    <br><br>
+    <input type="email" name="email" placeholder="Email">
+    <br><br>
+    <input required type="password" name="password" placeholder="Password">
+    <br><br>
+    <input type="text" name="adddress" placeholder="Address">
+    <br><br>
+    <input type="text" name="destination" placeholder="Destination">
+    <br><br>
+    <input type="url" name="image" placeholder="ProfileImage">
+    <br><br>
+    <button>Submit</button>
+
+</form>
+
+<%- include("footer")%>
